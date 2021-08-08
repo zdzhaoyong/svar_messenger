@@ -1,6 +1,6 @@
-#include "../src/Registry.h"
+#include "Svar.h"
 
-sv::Svar messenger=sv::Registry::load("svar_messenger")["messenger"];
+sv::Svar messenger=svar.import("svar_messenger")["messenger"];
 
 int main(int argc,char** argv){
 
